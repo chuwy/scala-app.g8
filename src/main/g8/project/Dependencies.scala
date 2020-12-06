@@ -4,7 +4,7 @@ object Dependencies {
 
   object V {
     // Scala
-    val declilne         = "1.3.0"
+    val decline          = "1.3.0"
     val circe            = "0.13.0"
     val http4s           = "0.21.13"
     // Scala (test only)

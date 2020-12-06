@@ -29,12 +29,7 @@ object BuildSettings {
   )
 
   lazy val buildSettings = Seq[Setting[_]](
-    javacOptions := Seq(
-      "-source", "1.11",
-      "-target", "1.11",
-      "-Xlint"
-    ),
-    addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.11.2")
+    addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.11.2" cross CrossVersion.full)
   )
 
   // sbt-assembly settings
