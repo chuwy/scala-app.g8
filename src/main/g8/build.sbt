@@ -3,7 +3,7 @@ lazy val root = project.in(file("."))
     name := "$name;format="lower,word"$",
     version := "$version$",
     organization := "$organization$",
-    scalaVersion := "2.12.4",
+    scalaVersion := "2.13.4",
     initialCommands := "import $organization$.$name;format="lower,word"$._"
   )
   .settings(BuildSettings.assemblySettings)
@@ -14,9 +14,7 @@ lazy val root = project.in(file("."))
       "Sonatype OSS Snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/"
     ),
     libraryDependencies ++= Seq(
-      Dependencies.scopt,
-      Dependencies.cats,
-      Dependencies.newts,
+      Dependencies.decline,
       Dependencies.circe,
       Dependencies.circeParser,
       Dependencies.circeGeneric,
