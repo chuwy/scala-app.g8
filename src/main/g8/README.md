@@ -11,7 +11,7 @@
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 2, December 2004
 
-Copyright (C) 2018 Anton Parkhomenko <mailbox@chuwy.me>
+Copyright (C) 2021 Anton Parkhomenko <mailbox@chuwy.me>
 
 Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document, and changing it is allowed as long
